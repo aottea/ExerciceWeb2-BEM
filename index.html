@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/img/favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <!--- Pour afficher les cards appuyer sur "PRODUCTS" -->
+  </head>
+  <body>
+    <header class="header">
+      <img class="header--logo" src="/svg/logo.svg">
+      <nav id="menu" class="hidden header__nav">
+        <a href="card.html">PRODUCTS</a>
+        <a>FEATURES</a>
+        <a>PRICING</a>
+        <hr>
+        <a class="header--login">LOGIN</a>
+      </nav>
+      <a id="menu-button">
+        <img id="closed" src="/svg/icon-hamburger.svg" alt="Icône du burger menu">
+        <img id="opened" class="hidden" src="/svg/icon-close.svg" alt="Icône du burger menu">
+      </a>
+    </header>
+    <main>
+      <div class="main--illustration">
+        <img src="/svg/illustration-devices.svg" alt="Illustration des appareils">
+      </div>
+      <div class="main--text">
+        <div class="main__div--badge">
+          <span class="main__badge--span">NEW</span>
+          <p class="main__badge--text">MONOGRAPH DASHBOARD</p>
+        </div>
+        <h1 class="main__h1">POWERFUL INSIGHTS INTO YOUR TEAM</h1>
+        <p class="main__desc">Project planning and time tracking for agile teams</p>
+        <div class="main--cta">
+          <button class="main__cta__button">SCHEDULE A DEMO</button>
+          <p class="main__cta__p">TO SEE A PREVIEW</p>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
